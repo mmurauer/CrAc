@@ -1,0 +1,193 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+	xmlns:inloc="http://purl.org/net/inloc/"
+	targetNamespace="http://purl.org/net/inloc/"
+	xmlns:xml="http://www.w3.org/XML/1998/namespace"
+	elementFormDefault="qualified">
+	<xs:import namespace="http://www.w3.org/XML/1998/namespace"
+		schemaLocation="http://www.w3.org/2001/xml.xsd"/>
+
+	<xs:annotation>
+		<xs:documentation>
+			Version 2012-06-09 initial release
+		</xs:documentation>
+		<xs:documentation>
+			Version 2012-07-06
+			Several changes/clarification after first early feedback on the interim report:
+			- LOCdefinition could not contain any other main LOC elements (other LOCdefinition, LOCrelation, LOCProperty)
+			- Several types (elements) have been externalized to allow their reuse (propertyType, RelationshipTypeID
+			- and clarify the modelling with common reuse types LOCtypeMultilingualToken and LOCtypeMultilingualString
+			- add the prefix "LOCtype" to all complextype defined in the inloc schema
+			- full URLs for the relationshipTypeID
+			- change sequence to choice for the LOCstructure so that child elements could be in any order.
+		</xs:documentation>
+		<xs:documentation>
+			Version 2012-10-31
+			added two new elements to the LOCtypeRelationshipTypeID:
+			* definesGenericLevel
+			* isDefinedGenericLevelOf
+			LOCtypeRelationshipTypeID removed, replaced with an annotation in 2013-04-24 in order to simplify the schema
+
+		</xs:documentation>
+		<xs:documentation>
+			Version 2012-11-12
+			added the primaryStructure element to the LOCDefinition type
+		</xs:documentation>
+		<xs:documentation>
+			Version 2012-11-14
+			allow any other attribute to furtherInformation element with validation process only if a schema is provided (lax)
+		</xs:documentation>
+		<xs:documentation>
+			Version 2013-04-24
+			tidying up without any significant change - annotation moved here from 2012-10-31 and corrected:
+			Where the _type_ attribute is "LOCrel", the *scheme* _id_ must be one of:
+			* "http://purl.org/net/inloc/closeMatch"
+			* "http://www.w3.org/2004/02/skos/core#closeMatch"
+			* "http://purl.org/net/inloc/exactMatch"
+			* "http://www.w3.org/2004/02/skos/core#exactMatch"
+			* "http://purl.org/net/inloc/hasDefinedLevel"
+			* "http://purl.org/net/inloc/hasExample"
+			* "http://purl.org/net/inloc/hasLOCpart"
+			* "http://purl.org/net/inloc/hasNecessaryPart"
+			* "http://purl.org/net/inloc/hasOptionalPart"
+			* "http://purl.org/net/inloc/hasPreRequisite"
+			* "http://purl.org/net/inloc/isDefinedLevelOf"
+			* "http://purl.org/net/inloc/isExampleOf"
+			* "http://purl.org/net/inloc/isLOCpartOf"
+			* "http://purl.org/net/inloc/isNecessaryPartOf"
+			* "http://purl.org/net/inloc/isOptionalPartOf"
+			* "http://purl.org/net/inloc/isPreRequisiteOf"
+			* "http://purl.org/net/inloc/isReplacedBy"
+			* "http://purl.org/dc/terms/isReplacedBy"
+			* "http://purl.org/net/inloc/related"
+			* "http://www.w3.org/2004/02/skos/core#related"
+			* "http://purl.org/dc/terms/relation"
+			* "http://purl.org/net/inloc/replaces"
+			* "http://purl.org/dc/terms/replaces"
+			Where the _type_ attribute is "by", the *scheme* _id_ must be one of:
+			* "http://purl.org/net/inloc/contributor"
+			* "http://purl.org/dc/terms/contributor"
+			* "http://purl.org/net/inloc/creator"
+			* "http://purl.org/dc/terms/creator"
+			* "http://purl.org/net/inloc/publisher"
+			* "http://purl.org/dc/terms/publisher"
+			* "http://purl.org/net/inloc/rightsHolder"
+			* "http://purl.org/dc/terms/rightsHolder"
+		</xs:documentation>
+	</xs:annotation>
+
+	<!-- Multilingual TYPES -->
+	
+	<xs:complexType name="LOCtypeMultilingualToken">
+		<xs:simpleContent>
+			<xs:extension base="xs:token">
+				<xs:attribute ref="xml:lang"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+
+	<xs:complexType name="LOCtypeMultilingualString">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute ref="xml:lang"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+
+	<xs:complexType name="LOCtypeMultilingualStringAnyAttribute">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute ref="xml:lang"/>
+				<xs:anyAttribute processContents="lax"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+		
+	<!-- TYPES for LOC Structure and LOC Defintion -->
+
+	<xs:complexType name="LOCtypeLOC" abstract="true">
+    	<xs:sequence>
+    		<xs:element name="extraID" type="xs:anyURI" minOccurs="0" maxOccurs="unbounded"/>
+    		<xs:element name="title" type="inloc:LOCtypeMultilingualToken" minOccurs="0" maxOccurs="unbounded"/>
+    		<xs:element name="abbr" type="inloc:LOCtypeMultilingualToken" minOccurs="0" maxOccurs="unbounded"/>
+    		<xs:element name="description" type="inloc:LOCtypeMultilingualString" minOccurs="0" maxOccurs="unbounded"/>
+    		<xs:element name="furtherInformation" type="inloc:LOCtypeMultilingualStringAnyAttribute" minOccurs="0" maxOccurs="unbounded"/>
+    		<xs:element name="rights" type="inloc:LOCtypeMultilingualString" minOccurs="0" maxOccurs="unbounded"/>
+    		<xs:element name="created" type="xs:dateTime" minOccurs="0"/>
+    		<xs:element name="modified" type="xs:dateTime" minOccurs="0" maxOccurs="unbounded"/>
+    		<xs:element name="issued" type="xs:dateTime" minOccurs="0"/>
+    		<xs:element name="validityStart" type="xs:dateTime" minOccurs="0"/>
+    		<xs:element name="validityEnd" type="xs:dateTime" minOccurs="0"/>
+    		<xs:element name="version" type="xs:token" minOccurs="0"/>
+    	</xs:sequence>
+		<xs:attribute name="id"  type="xs:anyURI" use="required"/>
+		<xs:attribute ref="xml:lang"/>
+	</xs:complexType>
+
+	<xs:complexType name="LOCdefinition">
+		<xs:complexContent>
+			<xs:extension base="inloc:LOCtypeLOC">
+			<xs:sequence>
+				<xs:element name="primaryStructure" type="xs:anyURI" minOccurs="0" maxOccurs="1"/>
+			</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="LOCstructure">
+    	<xs:complexContent>
+    		<xs:extension base="inloc:LOCtypeLOC">
+    			<xs:sequence>
+    				<xs:element name="combinationRules" type="inloc:LOCtypeMultilingualString" minOccurs="0" maxOccurs="unbounded"/>
+    				<xs:choice minOccurs="0" maxOccurs="unbounded">
+    					<xs:element name="LOCstructure" type="inloc:LOCstructure"/>
+    					<xs:element name="LOCdefinition" type="inloc:LOCdefinition"/>
+    					<xs:element name="LOCassociation" type="inloc:LOCassociation"/>
+    				</xs:choice>
+    			</xs:sequence>
+    		</xs:extension>
+    	</xs:complexContent>
+    </xs:complexType>
+	
+    <!-- TYPES for LOC Association -->
+
+	<xs:simpleType name="LOCtypeAssociationType">
+			<xs:restriction base="xs:anyURI">
+				<xs:enumeration value="http://purl.org/net/inloc/LOCrel"/>
+				<xs:enumeration value="http://purl.org/net/inloc/by"/>
+				<xs:enumeration value="http://purl.org/net/inloc/category"/>
+				<xs:enumeration value="http://purl.org/net/inloc/credit"/>
+				<xs:enumeration value="http://purl.org/net/inloc/level"/>
+				<xs:enumeration value="http://purl.org/net/inloc/topic"/>
+			</xs:restriction>
+		</xs:simpleType>
+	
+	<xs:complexType name="Subject">
+		<xs:sequence>
+			<xs:element name="label" type="inloc:LOCtypeMultilingualToken" maxOccurs="unbounded" minOccurs="0"/>
+		</xs:sequence>
+		<xs:attribute name="id"  type="xs:anyURI" use="required"/>
+	</xs:complexType>
+	
+	<xs:complexType name="SchemeObject">
+		<xs:sequence>
+			<xs:element name="label" type="inloc:LOCtypeMultilingualToken" maxOccurs="unbounded" minOccurs="0"/>
+		</xs:sequence>
+		<xs:attribute name="id"  type="xs:anyURI"/>
+	</xs:complexType>
+
+	<xs:complexType name="LOCassociation">
+		<xs:sequence>
+			<xs:element name="subject" type="inloc:Subject" maxOccurs="1" minOccurs="1"/>
+			<xs:element name="scheme" type="inloc:SchemeObject" maxOccurs="1" minOccurs="1"/>
+			<xs:element name="object" type="inloc:SchemeObject" maxOccurs="1" minOccurs="1"/>
+			<xs:element name="number" type="xs:decimal" maxOccurs="1" minOccurs="0"/>
+		</xs:sequence>
+		<xs:attribute name="id"  type="xs:anyURI"/>
+		<xs:attribute name="type"  type="inloc:LOCtypeAssociationType" use="required"/>
+	</xs:complexType>
+
+    <!-- root ELEMENT -->
+	<xs:element name="LOCstructure" type="inloc:LOCstructure"></xs:element>
+	
+</xs:schema>

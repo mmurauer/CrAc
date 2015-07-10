@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This is a dummy collection of some interests for prototyping purposes
+	v 1.0 -->
+
+<!-- first, the LOC structure and its direct properties -->
+<LOCstructure xmlns="http://purl.org/net/inloc/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://purl.org/net/inloc/ http://purl.org/net/inloc/inloc_schema.xsd"
+	xml:lang="en" id="http://inloc.crac.at/interests/v1">
+	<!-- the last two attributes above put clearly as they are significant -->
+	<title>CoopeRative ACtivities Interests Framework</title>
+	<abbr>CRAC Interests</abbr>
+	<rights></rights>
+	<created>2015-04-07T00:00:00</created>
+	<version>1.0</version>
+
+	<LOCassociation type="http://purl.org/net/inloc/by">
+		<subject id="http://inloc.crac.at/interests/v1" />
+		<scheme id="http://purl.org/net/inloc/creator">
+			<label xml:lang="en">Author</label>
+		</scheme>
+		<object id="">
+			<label>Florian Jungwirth, Michaela Murauer</label>
+		</object>
+	</LOCassociation>
+
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v1" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v1/Indoor" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v1/Indoor">
+		<title>Indoor</title>
+	</LOCdefinition>
+
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v1" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v1/Outdoor" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v1/Outdoor">
+		<title>Outdoor</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v1" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v1/Collection" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v1/Collection">
+		<title>Collection</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v1/Indoor" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v1/Indoor/1" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v1/Indoor/1">
+		<title>Drawing</title>
+	</LOCdefinition>
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v1/Indoor" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v1/Indoor/2" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v1/Indoor/2">
+		<title>Writing</title>
+	</LOCdefinition>
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v1/Indoor" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v1/Indoor/3" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v1/Indoor/3">
+		<title>Dancing</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v1/Outdoor" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v1/Outdoor/1" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v1/Outdoor/1">
+		<title>Biking</title>
+	</LOCdefinition>
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v1/Outdoor" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v1/Outdoor/2" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v1/Outdoor/2">
+		<title>Running</title>
+	</LOCdefinition>
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v1/Outdoor" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v1/Outdoor/3" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v1/Outdoor/3">
+		<title>Yoga</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v1/Indoor" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v1/Outdoor/3" />
+	</LOCassociation>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v1/Collection" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v1/Collection/1" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v1/Collection/1">
+		<title>Cards</title>
+	</LOCdefinition>
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v1/Collection" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v1/Collection/2" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v1/Collection/2">
+		<title>Cars</title>
+	</LOCdefinition>
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v1/Collection" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v1/Collection/3" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v1/Collection/3">
+		<title>Coins</title>
+	</LOCdefinition>
+</LOCstructure>

@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This is a demo collection of some competencies for prototyping purposes
+	v 1.0 -->
+
+<!-- first, the LOC structure and its direct properties -->
+<LOCstructure xmlns="http://purl.org/net/inloc/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://purl.org/net/inloc/ http://purl.org/net/inloc/inloc_schema.xsd"
+	xml:lang="en" id="http://inloc.crac.at/socialandpersonal_competencies/v1">
+	<!-- the last two attributes above put clearly as they are significant -->
+	<title>Social and Personal Competencies</title>
+	<abbr>CRAC Social and Personal Competencies</abbr>
+	<rights></rights>
+	<created>2015-06-07T00:00:00</created>
+	<version>1.0</version>
+
+	<LOCassociation type="http://purl.org/net/inloc/by">
+		<subject id="http://inloc.crac.at/interests/v1" />
+		<scheme id="http://purl.org/net/inloc/creator">
+			<label xml:lang="en">Author</label>
+		</scheme>
+		<object id="">
+			<label>Florian Jungwirth, Michaela Murauer</label>
+		</object>
+	</LOCassociation>
+
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/socialandpersonal_competencies/v1" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialPersonal/SocialResponsibility" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialPersonal/SocialResponsibility">
+		<title>Social Responsibility</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/SocialPersonal/SocialResponsibility" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialPersonal/SocialResponsibility/Respect" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialPersonal/SocialResponsibility/Respect">
+		<title>Respect and Tolerance</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/SocialPersonal/SocialResponsibility/Respect" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialPersonal/SocialResponsibility/Respect/1" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialPersonal/SocialResponsibility/Respect/1">
+		<title>Respecting other opinions</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/SocialPersonal/SocialResponsibility/Respect" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialPersonal/SocialResponsibility/Respect/2" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialPersonal/SocialResponsibility/Respect/2">
+		<title>Ability to reflect one's own behavior related to needs of others</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/SocialPersonal/SocialResponsibility" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialPersonal/SocialResponsibility/Helpfulness" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialPersonal/SocialResponsibility/Helpfulness">
+		<title>Helpfulness</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/SocialPersonal/SocialResponsibility/Helpfulness" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialPersonal/SocialResponsibility/Helpfulness/1" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialPersonal/SocialResponsibility/Helpfulness/1">
+		<title>Appropriate support of other persons</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/socialandpersonal_competencies/v1" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialPersonal/SelfResponsibility" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialPersonal/SelfResponsibility">
+		<title>Self-Responsibility</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/SocialPersonal/SelfResponsibility" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialPersonal/SelfResponsibility/SelfConfidence" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialPersonal/SelfResponsibility/SelfConfidence">
+		<title>Self-confidence and reflection</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/SocialPersonal/SelfResponsibility/SelfConfidence" />
+		<scheme id="http://purl.org/net/inloc/hasDefinedLevel" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialPersonal/SelfResponsibility/SelfConfidence/1" />
+		<number>1</number>
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialPersonal/SelfResponsibility/SelfConfidence/1">
+		<title>Knowing one's strengths and weaknesses</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/SocialPersonal/SelfResponsibility/SelfConfidence" />
+		<scheme id="http://purl.org/net/inloc/hasDefinedLevel" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialPersonal/SelfResponsibility/SelfConfidence/2" />
+		<number>2</number>
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialPersonal/SelfResponsibility/SelfConfidence/2">
+		<title>Acting corresponding to one's strengths and resources</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/SocialPersonal/SelfResponsibility" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialPersonal/SelfResponsibility/SelfReliance" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialPersonal/SelfResponsibility/SelfReliance">
+		<title>Self-reliance and initiative</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/SocialPersonal/SelfResponsibility/SelfReliance" />
+		<scheme id="http://purl.org/net/inloc/hasDefinedLevel" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialPersonal/SelfResponsibility/SelfReliance/1" />
+		<number>1</number>
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialPersonal/SelfResponsibility/SelfReliance/1">
+		<title>Ability to finish given tasks independently</title>
+	</LOCdefinition>
+
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/SocialPersonal/SelfResponsibility/SelfReliance" />
+		<scheme id="http://purl.org/net/inloc/hasDefinedLevel" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialPersonal/SelfResponsibility/SelfReliance/2" />
+		<number>2</number>
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialPersonal/SelfResponsibility/SelfReliance/2">
+		<title>Take appropriate steps to reach one's goals</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/SocialPersonal/SelfResponsibility" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialPersonal/SelfResponsibility/Norms" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialPersonal/SelfResponsibility/Norms">
+		<title>Norms and values</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/SocialPersonal/SelfResponsibility/Norms" />
+		<scheme id="http://purl.org/net/inloc/hasDefinedLevel" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialPersonal/SelfResponsibility/Norms/1" />
+		<number>1</number>
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialPersonal/SelfResponsibility/Norms/1">
+		<title>Acting corresponding to social norms and rules bearing in mind one's individual values</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/SocialPersonal/SelfResponsibility/Norms" />
+		<scheme id="http://purl.org/net/inloc/hasDefinedLevel" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialPersonal/SelfResponsibility/Norms/2" />
+		<number>2</number>
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialPersonal/SelfResponsibility/Norms/2">
+		<title>Reflect individual values referred to social social norms and rules</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/SocialPersonal/SelfResponsibility" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialPersonal/SelfResponsibility/SelfControl" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialPersonal/SelfResponsibility/SelfControl">
+		<title>Self Control</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/SocialPersonal/SelfResponsibility/SelfControl" />
+		<scheme id="http://purl.org/net/inloc/hasDefinedLevel" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialPersonal/SelfResponsibility/SelfControl/1" />
+		<number>1</number>
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialPersonal/SelfResponsibility/SelfControl/1">
+		<title>Take up responsibility for one's conduct</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/SocialPersonal/SelfResponsibility/SelfControl" />
+		<scheme id="http://purl.org/net/inloc/hasDefinedLevel" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialPersonal/SelfResponsibility/SelfControl/2" />
+		<number>2</number>
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialPersonal/SelfResponsibility/SelfControl/2">
+		<title>Responsible behavior related to health aspects</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/socialandpersonal_competencies/v1" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialPersonal/Leadership" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialPersonal/Leadership">
+		<title>Leadership</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/SocialPersonal/Leadership" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialPersonal/Leadership/Responsibleness" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialPersonal/Leadership/Responsibleness">
+		<title>Responsibleness</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/SocialPersonal/Leadership/Responsibleness" />
+		<scheme id="http://purl.org/net/inloc/hasDefinedLevel" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialPersonal/Leadership/Responsibleness/1" />
+		<number>1</number>
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialPersonal/Leadership/Responsibleness/1">
+		<title>Take up leadership tasks in a cleary structured field</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/SocialPersonal/Leadership/Responsibleness" />
+		<scheme id="http://purl.org/net/inloc/hasDefinedLevel" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialPersonal/Leadership/Responsibleness/2" />
+		<number>2</number>
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialPersonal/Leadership/Responsibleness/2">
+		<title>Take up leadership in a field with unforseeable requirements</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/SocialPersonal/Leadership" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialPersonal/Leadership/Decisions" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialPersonal/Leadership/Decisions">
+		<title>Decision making</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/SocialPersonal/Leadership/Decisions" />
+		<scheme id="http://purl.org/net/inloc/hasDefinedLevel" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialPersonal/Leadership/Decisions/1" />
+		<number>1</number>
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialPersonal/Leadership/Decisions/1">
+		<title>Find decisions based on given information</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/SocialPersonal/Leadership/Decisions" />
+		<scheme id="http://purl.org/net/inloc/hasDefinedLevel" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialPersonal/Leadership/Decisions/2" />
+		<number>2</number>
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialPersonal/Leadership/Decisions/2">
+		<title>Abilit to check if decisions have been executed</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/socialandpersonal_competencies/v1" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialPersonal/Cooperation" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialPersonal/Cooperation">
+		<title>Cooperation</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/SocialPersonal/Cooperation" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialPersonal/Cooperation/Teamwork" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialPersonal/Cooperation/Teamwork">
+		<title>Team work and role comprehension</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/SocialPersonal/Cooperation/Teamwork" />
+		<scheme id="http://purl.org/net/inloc/hasDefinedLevel" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialPersonal/Cooperation/Teamwork/1" />
+		<number>1</number>
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialPersonal/Cooperation/Teamwork/1">
+		<title>Knowledge of different roles, tasks and functions within a group</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/SocialPersonal/Cooperation/Teamwork" />
+		<scheme id="http://purl.org/net/inloc/hasDefinedLevel" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialPersonal/Cooperation/Teamwork/2" />
+		<number>2</number>
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialPersonal/Cooperation/Teamwork/2">
+		<title>Ability to describe tasks and functions within a group</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/SocialPersonal/Cooperation/Teamwork" />
+		<scheme id="http://purl.org/net/inloc/hasDefinedLevel" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialPersonal/Cooperation/Teamwork/3" />
+		<number>3</number>
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialPersonal/Cooperation/Teamwork/3">
+		<title>Ability to take up responsibilities and tasks corresponding to given role</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/SocialPersonal/Cooperation" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialPersonal/Cooperation/Goals" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialPersonal/Cooperation/Goals">
+		<title>Outcome and goal orientation</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/SocialPersonal/Cooperation/Goals" />
+		<scheme id="http://purl.org/net/inloc/hasDefinedLevel" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialPersonal/Cooperation/Goals/1" />
+		<number>1</number>
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialPersonal/Cooperation/Goals/1">
+		<title>Definition of precise and realistic working goals</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/SocialPersonal/Cooperation/Goals" />
+		<scheme id="http://purl.org/net/inloc/hasDefinedLevel" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialPersonal/Cooperation/Goals/2" />
+		<number>2</number>
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialPersonal/Cooperation/Goals/2">
+		<title>Acting outcome orientated in unexpected situations</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/SocialPersonal/Cooperation/Goals" />
+		<scheme id="http://purl.org/net/inloc/hasDefinedLevel" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialPersonal/Cooperation/Goals/3" />
+		<number>3</number>
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialPersonal/Cooperation/Goals/3">
+		<title>Evaluation of outcomes reached and quality of group work</title>
+	</LOCdefinition>
+</LOCstructure>

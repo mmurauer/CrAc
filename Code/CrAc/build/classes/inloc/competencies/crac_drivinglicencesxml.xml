@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This is a demo collection of some competencies for prototyping purposes
+	v 1.0 -->
+
+<!-- first, the LOC structure and its direct properties -->
+<LOCstructure xmlns="http://purl.org/net/inloc/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://purl.org/net/inloc/ http://purl.org/net/inloc/inloc_schema.xsd"
+	xml:lang="en" id="http://inloc.crac.at/drivinglicences_competencies/v1">
+	<!-- the last two attributes above put clearly as they are significant -->
+	<title>Driving Licences</title>
+	<abbr>CRAC Driving Licences Competencies</abbr>
+	<rights></rights>
+	<created>2015-06-07T00:00:00</created>
+	<version>1.0</version>
+
+	<LOCassociation type="http://purl.org/net/inloc/by">
+		<subject id="http://inloc.crac.at/interests/v1" />
+		<scheme id="http://purl.org/net/inloc/creator">
+			<label xml:lang="en">Author</label>
+		</scheme>
+		<object id="">
+			<label>Florian Jungwirth, Michaela Murauer</label>
+		</object>
+	</LOCassociation>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/drivinglicences_competencies/v1" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/competencies/v1/DrivingLicences/A" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/DrivingLicences/A">
+		<title>A</title>
+	</LOCdefinition>
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/drivinglicences_competencies/v1" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/competencies/v1/DrivingLicences/B" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/DrivingLicences/B">
+		<title>B</title>
+	</LOCdefinition>
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/drivinglicences_competencies/v1" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/competencies/v1/DrivingLicences/C" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/DrivingLicences/C">
+		<title>C</title>
+	</LOCdefinition>
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/drivinglicences_competencies/v1" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/competencies/v1/DrivingLicences/D" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/DrivingLicences/D">
+		<title>D</title>
+	</LOCdefinition>
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/drivinglicences_competencies/v1" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/competencies/v1/DrivingLicences/F" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/DrivingLicences/F">
+		<title>F</title>
+	</LOCdefinition>
+</LOCstructure>

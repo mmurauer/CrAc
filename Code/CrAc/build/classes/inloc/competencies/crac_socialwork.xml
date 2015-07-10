@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This is a demo collection of some competencies for prototyping purposes
+	v 1.0 -->
+
+<!-- first, the LOC structure and its direct properties -->
+<LOCstructure xmlns="http://purl.org/net/inloc/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://purl.org/net/inloc/ http://purl.org/net/inloc/inloc_schema.xsd"
+	xml:lang="en" id="http://inloc.crac.at/socialwork_competencies/v1">
+	<!-- the last two attributes above put clearly as they are significant -->
+	<title>Social Work</title>
+	<abbr>CRAC Language Competencies</abbr>
+	<rights></rights>
+	<created>2015-06-07T00:00:00</created>
+	<version>1.0</version>
+
+	<LOCassociation type="http://purl.org/net/inloc/by">
+		<subject id="http://inloc.crac.at/interests/v1" />
+		<scheme id="http://purl.org/net/inloc/creator">
+			<label xml:lang="en">Author</label>
+		</scheme>
+		<object id="">
+			<label>Florian Jungwirth, Michaela Murauer</label>
+		</object>
+	</LOCassociation>
+
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/socialwork_competencies/v1" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialWork/DisabledCare" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialWork/DisabledCare">
+		<title>Disabled Care</title>
+		<description>Work with people with disabilities</description>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/SocialWork/DisabledCare" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialWork/DisabledCare/Medication" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialWork/DisabledCare/Medication">
+		<title>Medication</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/SocialWork/DisabledCare/Medication" />
+		<scheme id="http://purl.org/net/inloc/hasDefinedLevel" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialWork/DisabledCare/Medication/1" />
+		<number>1</number>
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialWork/DisabledCare/Medication/1">
+		<title>Assist people with self-medication</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/SocialWork/DisabledCare/Medication" />
+		<scheme id="http://purl.org/net/inloc/hasDefinedLevel" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialWork/DisabledCare/Medication/2" />
+		<number>2</number>
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialWork/DisabledCare/Medication/2">
+		<title>Diagnose diseases and suggest self-medication for patients</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/SocialWork/DisabledCare" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialWork/DisabledCare/Support" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialWork/DisabledCare/Support">
+		<title>Support</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/SocialWork/DisabledCare/Support" />
+		<scheme id="http://purl.org/net/inloc/hasDefinedLevel" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialWork/DisabledCare/Support/1" />
+		<number>1</number>
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialWork/DisabledCare/Support/1">
+		<title>Ability to provide in-home support</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/SocialWork/DisabledCare/Support" />
+		<scheme id="http://purl.org/net/inloc/hasDefinedLevel" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialWork/DisabledCare/Support/2" />
+		<number>2</number>
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialWork/DisabledCare/Support/2">
+		<title>Ability to provide in-home support in daily living tasks like washing, cleaning, dressing, eating, transport </title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/SocialWork/DisabledCare/Support" />
+		<scheme id="http://purl.org/net/inloc/hasDefinedLevel" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialWork/DisabledCare/Support/3" />
+		<number>3</number>
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialWork/DisabledCare/Support/3">
+		<title>Ability to provide in-home support in daily living tasks and household activities like cooking and serving meals and shopping</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/SocialWork/DisabledCare" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialWork/DisabledCare/Activities" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialWork/DisabledCare/Activities">
+		<title>Activities</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/SocialWork/DisabledCare/Activities" />
+		<scheme id="http://purl.org/net/inloc/hasDefinedLevel" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialWork/DisabledCare/Activities/1" />
+		<number>1</number>
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialWork/DisabledCare/Activities/1">
+		<title>Assist with activities for physical, social, emotional and intellecutual development</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/SocialWork/DisabledCare/Activities" />
+		<scheme id="http://purl.org/net/inloc/hasDefinedLevel" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialWork/DisabledCare/Activities/2" />
+		<number>2</number>
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialWork/DisabledCare/Activities/2">
+		<title>Assist with exercices to get used to daily living tasks</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/socialwork_competencies/v1" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialWork/ChildCare" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialWork/ChildCare">
+		<title>Child Care</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/SocialWork/ChildCare" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialWork/ChildCare/Dealing" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialWork/ChildCare/Dealing">
+		<title>Dealing with Children</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/SocialWork/ChildCare/Dealing" />
+		<scheme id="http://purl.org/net/inloc/hasDefinedLevel" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialWork/ChildCare/Dealing/1" />
+		<number>1</number>
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialWork/ChildCare/Dealing/1">
+		<title>Passion for children and working with them</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/SocialWork/ChildCare/Dealing" />
+		<scheme id="http://purl.org/net/inloc/hasDefinedLevel" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialWork/ChildCare/Dealing/2" />
+		<number>2</number>
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialWork/ChildCare/Dealing/2">
+		<title>Ability to build relationships to children and their parents</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/SocialWork/ChildCare" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialWork/ChildCare/EmotionalCare" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialWork/ChildCare/EmotionalCare">
+		<title>Emotional Care</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/SocialWork/ChildCare/EmotionalCare" />
+		<scheme id="http://purl.org/net/inloc/hasDefinedLevel" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialWork/ChildCare/EmotionalCare/1" />
+		<number>1</number>
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialWork/ChildCare/EmotionalCare/1">
+		<title>Manage and satisfy basic children's emotional needs</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/SocialWork/ChildCare/EmotionalCare" />
+		<scheme id="http://purl.org/net/inloc/hasDefinedLevel" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialWork/ChildCare/EmotionalCare/2" />
+		<number>2</number>
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialWork/ChildCare/EmotionalCare/2">
+		<title>Working knowledge of providing emotional support to distressed babies</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/SocialWork/ChildCare/EmotionalCare" />
+		<scheme id="http://purl.org/net/inloc/hasDefinedLevel" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialWork/ChildCare/EmotionalCare/3" />
+		<number>3</number>
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialWork/ChildCare/EmotionalCare/3">
+		<title>Ability to handle emergency situations engendered by emotional disturbances</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/SocialWork/ChildCare" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialWork/ChildCare/PhysicalDevelopment" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialWork/ChildCare/PhysicalDevelopment">
+		<title>Physical Development</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/SocialWork/ChildCare/PhysicalDevelopment" />
+		<scheme id="http://purl.org/net/inloc/hasDefinedLevel" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialWork/ChildCare/PhysicalDevelopment/1" />
+		<number>1</number>
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialWork/ChildCare/PhysicalDevelopment/1">
+		<title>Ability to design activities for children and to cater the development of individual children</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/SocialWork/ChildCare/PhysicalDevelopment" />
+		<scheme id="http://purl.org/net/inloc/hasDefinedLevel" />
+		<object id="http://inloc.crac.at/competencies/v1/SocialWork/ChildCare/PhysicalDevelopment/2" />
+		<number>2</number>
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/SocialWork/ChildCare/PhysicalDevelopment/2">
+		<title>Excellent knowledge of meeting the physical needs of babies</title>
+	</LOCdefinition>
+</LOCstructure>

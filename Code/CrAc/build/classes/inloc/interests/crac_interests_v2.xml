@@ -1,0 +1,2330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This is a dummy collection of some interests for prototyping purposes
+	v 1.0 -->
+
+<!-- first, the LOC structure and its direct properties -->
+<LOCstructure xmlns="http://purl.org/net/inloc/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://purl.org/net/inloc/ http://purl.org/net/inloc/inloc_schema.xsd"
+	xml:lang="en" id="http://inloc.crac.at/interests/v2">
+	<!-- the last two attributes above put clearly as they are significant -->
+	<!-- from the heckmann paper-->
+	<title>CoopeRative ACtivities Interests Framework</title>
+	<abbr>CrAc Interests</abbr>
+	<rights></rights>
+	<created>2015-04-07T00:00:00</created>
+	<version>1.0</version>
+
+	<LOCassociation type="http://purl.org/net/inloc/by">
+		<subject id="http://inloc.crac.at/interests/v2" />
+		<scheme id="http://purl.org/net/inloc/creator">
+			<label xml:lang="en">Author</label>
+		</scheme>
+		<object id="">
+			<label>Florian Jungwirth, Michaela Murauer</label>
+		</object>
+	</LOCassociation>
+
+	<!-- main categories-->
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Film" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Film">
+		<title>Film</title>
+	</LOCdefinition>
+
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Music" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Music">
+		<title>Music</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Sports" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Sports">
+		<title>Sports</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/PC-Games" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/PC-Games">
+		<title>PC-Games</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Recreation" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Recreation">
+		<title>Recreation</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/EnvironmentalTopics" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/EnvironmentalTopics">
+		<title>Environmental Topics</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Science" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Science">
+		<title>Science</title>
+	</LOCdefinition>
+	
+	<!-- sub categories Film -->
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Film" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Film/1" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Film/1">
+		<title>Action</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Film" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Film/2" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Film/2">
+		<title>Adventure</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Film" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Film/3" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Film/3">
+		<title>Animation</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Film" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Film/4" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Film/4">
+		<title>Children and Family</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Film" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Film/5" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Film/5">
+		<title>Classics</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Film" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Film/6" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Film/6">
+		<title>Comedy</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Film" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Film/7" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Film/7">
+		<title>Crime</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Film" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Film/8" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Film/8">
+		<title>Documentary</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Film" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Film/9" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Film/9">
+		<title>Drama</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Film" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Film/10" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Film/10">
+		<title>Fantasy</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Film" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Film/11" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Film/11">
+		<title>Foreign</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Film" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Film/12" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Film/12">
+		<title>Horror</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Film" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Film/13" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Film/13">
+		<title>Independent</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Film" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Film/14" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Film/14">
+		<title>Martial Arts</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Film" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Film/15" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Film/15">
+		<title>Music and Concert</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Film" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Film/16" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Film/16">
+		<title>Musicals</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Film" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Film/17" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Film/17">
+		<title>Mystery</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Film" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Film/18" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Film/18">
+		<title>Romance</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Film" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Film/19" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Film/19">
+		<title>Science Fiction</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Film" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Film/20" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Film/20">
+		<title>Soaps</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Film" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Film/21" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Film/21">
+		<title>Sports and Exercise</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Film" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Film/22" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Film/22">
+		<title>Television</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Film" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Film/23" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Film/23">
+		<title>Thriller</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Film" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Film/24" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Film/24">
+		<title>War</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Film" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Film/25" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Film/25">
+		<title>Westerns</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Film" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Film/26" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Film/26">
+		<title>Other</title>
+	</LOCdefinition>
+	
+	<!-- subcategories of Music-->
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Music" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Music/1" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Music/1">
+		<title>Blues</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Music" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Music/2" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Music/2">
+		<title>Celtic</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Music" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Music/3" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Music/3">
+		<title>Children</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Music" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Music/4" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Music/4">
+		<title>Choral Music</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Music" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Music/5" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Music/5">
+		<title>Classical</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Music" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Music/6" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Music/6">
+		<title>Composers</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Music" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Music/7" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Music/7">
+		<title>Concerts</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Music" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Music/8" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Music/8">
+		<title>Country</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Music" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Music/9" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Music/9">
+		<title>Dance</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Music" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Music/10" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Music/10">
+		<title>Electronic</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Music" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Music/11" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Music/11">
+		<title>Folk</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Music" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Music/12" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Music/12">
+		<title>Heavy Metal</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Music" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Music/13" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Music/13">
+		<title>Hip-Hop</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Music" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Music/14" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Music/14">
+		<title>Humor and Comedy</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Music" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Music/15" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Music/15">
+		<title>Hymns</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Music" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Music/16" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Music/16">
+		<title>Improvisation</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Music" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Music/17" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Music/17">
+		<title>Indian</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Music" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Music/18" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Music/18">
+		<title>Jazz</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Music" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Music/19" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Music/19">
+		<title>Jewish</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Music" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Music/20" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Music/20">
+		<title>Karaoke</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Music" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Music/21" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Music/21">
+		<title>Lyrics</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Music" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Music/22" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Music/22">
+		<title>Musical Instrument</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Music" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Music/23" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Music/23">
+		<title>Musicals</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Music" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Music/24" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Music/24">
+		<title>New Age</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Music" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Music/25" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Music/25">
+		<title>Opera</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Music" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Music/26" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Music/26">
+		<title>Popular</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Music" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Music/27" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Music/27">
+		<title>Psychedelic</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Music" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Music/28" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Music/28">
+		<title>Punk Rock</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Music" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Music/29" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Music/29">
+		<title>Quartets</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Music" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Music/30" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Music/30">
+		<title>Ragtime</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Music" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Music/31" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Music/31">
+		<title>Rap</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Music" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Music/32" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Music/32">
+		<title>Rave Culture</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Music" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Music/33" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Music/33">
+		<title>Reggae</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Music" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Music/34" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Music/34">
+		<title>Religion</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Music" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Music/35" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Music/35">
+		<title>Rhythm-n-Blues</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Music" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Music/36" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Music/36">
+		<title>Rock</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Music" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Music/37" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Music/37">
+		<title>Symphony Orchestras</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Music" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Music/38" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Music/38">
+		<title>Western Swing</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Music" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Music/39" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Music/39">
+		<title>World Music</title>
+	</LOCdefinition>
+	
+	<!-- subcategories of Sports-->
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Sports" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Sports/1" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Sports/1">
+		<title>Athletics</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Sports" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Sports/2" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Sports/2">
+		<title>Automobile Racing</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Sports" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Sports/3" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Sports/3">
+		<title>Badminton</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Sports" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Sports/4" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Sports/4">
+		<title>Baseball</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Sports" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Sports/5" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Sports/5">
+		<title>Basketball</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Sports" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Sports/6" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Sports/6">
+		<title>Boating</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Sports" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Sports/7" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Sports/7">
+		<title>Boomerangs</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Sports" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Sports/8" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Sports/8">
+		<title>Bowling</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Sports" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Sports/9" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Sports/9">
+		<title>Boxing</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Sports" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Sports/10" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Sports/10">
+		<title>Chess</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Sports" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Sports/11" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Sports/11">
+		<title>Climbing</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Sports" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Sports/12" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Sports/12">
+		<title>Cricket</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Sports" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Sports/13" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Sports/13">
+		<title>Cycling</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Sports" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Sports/14" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Sports/14">
+		<title>Fencing</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Sports" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Sports/15" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Sports/15">
+		<title>Field Hockey</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Sports" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Sports/16" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Sports/16">
+		<title>Flying Discs</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Sports" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Sports/17" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Sports/17">
+		<title>Football</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Sports" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Sports/18" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Sports/18">
+		<title>Golf</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Sports" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Sports/19" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Sports/19">
+		<title>Gymnastics</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Sports" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Sports/20" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Sports/20">
+		<title>Hockey</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Sports" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Sports/21" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Sports/21">
+		<title>Horse Racing</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Sports" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Sports/22" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Sports/22">
+		<title>Ice Hockey</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Sports" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Sports/23" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Sports/23">
+		<title>Ice Skating</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Sports" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Sports/24" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Sports/24">
+		<title>Karting</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Sports" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Sports/25" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Sports/25">
+		<title>Luge</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Sports" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Sports/26" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Sports/26">
+		<title>Motorcycles</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Sports" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Sports/27" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Sports/27">
+		<title>Olympics</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Sports" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Sports/28" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Sports/28">
+		<title>Rodeos</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Sports" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Sports/29" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Sports/29">
+		<title>Running</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Sports" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Sports/30" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Sports/30">
+		<title>Sailing</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Sports" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Sports/31" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Sports/31">
+		<title>Scuba Diving</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Sports" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Sports/32" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Sports/32">
+		<title>Skateboarding</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Sports" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Sports/33" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Sports/33">
+		<title>Skydiving</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Sports" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Sports/34" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Sports/34">
+		<title>Skating</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Sports" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Sports/35" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Sports/35">
+		<title>Skiing</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Sports" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Sports/36" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Sports/36">
+		<title>Snowboarding</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Sports" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Sports/37" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Sports/37">
+		<title>Soccer</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Sports" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Sports/38" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Sports/38">
+		<title>Softball</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Sports" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Sports/39" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Sports/39">
+		<title>Surfing</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Sports" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Sports/40" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Sports/40">
+		<title>Swimming</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Sports" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Sports/41" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Sports/41">
+		<title>Table Tennis</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Sports" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Sports/42" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Sports/42">
+		<title>Tennis</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Sports" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Sports/43" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Sports/43">
+		<title>Triathlon</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Sports" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Sports/44" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Sports/44">
+		<title>Volleyball</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Sports" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Sports/45" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Sports/45">
+		<title>Windsurfing</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Sports" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Sports/46" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Sports/46">
+		<title>Winter Sports</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Sports" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Sports/47" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Sports/47">
+		<title>Wrestling</title>
+	</LOCdefinition>
+	
+	<!--subcategories of PC-Games-->
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/PC-Games" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/PC-Games/1" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/PC-Games/1">
+		<title>Adventure</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/PC-Games" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/PC-Games/2" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/PC-Games/2">
+		<title>Action</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/PC-Games" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/PC-Games/3" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/PC-Games/3">
+		<title>Arcade</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/PC-Games" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/PC-Games/4" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/PC-Games/4">
+		<title>Board Games</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/PC-Games" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/PC-Games/5" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/PC-Games/5">
+		<title>Children</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/PC-Games" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/PC-Games/6" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/PC-Games/6">
+		<title>Fighting</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/PC-Games" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/PC-Games/7" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/PC-Games/7">
+		<title>Platform</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/PC-Games" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/PC-Games/8" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/PC-Games/8">
+		<title>Puzzle</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/PC-Games" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/PC-Games/9" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/PC-Games/9">
+		<title>Racing</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/PC-Games" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/PC-Games/10" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/PC-Games/10">
+		<title>Shoot-Em-Up</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/PC-Games" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/PC-Games/11" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/PC-Games/11">
+		<title>Simulation</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/PC-Games" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/PC-Games/12" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/PC-Games/12">
+		<title>Sports</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/PC-Games" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/PC-Games/13" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/PC-Games/13">
+		<title>Strategy</title>
+	</LOCdefinition>
+	
+	<!-- subcategories of Recreation-->
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Recreation" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Recreation/1" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Recreation/1">
+		<title>Aquariums</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Recreation" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Recreation/2" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Recreation/2">
+		<title>Art Galleries</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Recreation" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Recreation/3" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Recreation/3">
+		<title>Backpacking</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Recreation" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Recreation/4" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Recreation/4">
+		<title>Beaches</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Recreation" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Recreation/5" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Recreation/5">
+		<title>Bicycling</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Recreation" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Recreation/6" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Recreation/6">
+		<title>Bird Watching</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Recreation" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Recreation/7" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Recreation/7">
+		<title>Books</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Recreation" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Recreation/8" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Recreation/8">
+		<title>Camping</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Recreation" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Recreation/9" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Recreation/9">
+		<title>Card Tricks</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Recreation" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Recreation/10" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Recreation/10">
+		<title>Circus</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Recreation" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Recreation/11" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Recreation/11">
+		<title>Collecting</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Recreation" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Recreation/12" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Recreation/12">
+		<title>Crafts</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Recreation" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Recreation/13" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Recreation/13">
+		<title>Crossword Puzzles</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Recreation" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Recreation/14" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Recreation/14">
+		<title>Dance</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Recreation" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Recreation/15" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Recreation/15">
+		<title>Fairs</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Recreation" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Recreation/16" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Recreation/16">
+		<title>Festivals</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Recreation" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Recreation/17" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Recreation/17">
+		<title>Fireworks</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Recreation" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Recreation/18" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Recreation/18">
+		<title>Fishing</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Recreation" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Recreation/19" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Recreation/19">
+		<title>Fortune-telling</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Recreation" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Recreation/20" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Recreation/20">
+		<title>Gambling</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Recreation" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Recreation/21" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Recreation/21">
+		<title>Games</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Recreation" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Recreation/22" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Recreation/22">
+		<title>Gardening</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Recreation" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Recreation/23" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Recreation/23">
+		<title>Hiking</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Recreation" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Recreation/24" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Recreation/24">
+		<title>Humor</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Recreation" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Recreation/25" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Recreation/25">
+		<title>Hunting</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Recreation" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Recreation/26" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Recreation/26">
+		<title>Jigsaw Puzzles</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Recreation" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Recreation/27" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Recreation/27">
+		<title>Juggling</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Recreation" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Recreation/28" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Recreation/28">
+		<title>Kites</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Recreation" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Recreation/29" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Recreation/29">
+		<title>Lotteries</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Recreation" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Recreation/30" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Recreation/30">
+		<title>Magic Tricks</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Recreation" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Recreation/31" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Recreation/31">
+		<title>Movies</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Recreation" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Recreation/32" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Recreation/32">
+		<title>Museums</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Recreation" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Recreation/33" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Recreation/33">
+		<title>Pets</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Recreation" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Recreation/34" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Recreation/34">
+		<title>Photography</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Recreation" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Recreation/35" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Recreation/35">
+		<title>Puppets</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Recreation" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Recreation/36" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Recreation/36">
+		<title>Rafting</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Recreation" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Recreation/37" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Recreation/37">
+		<title>Radio</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Recreation" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Recreation/38" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Recreation/38">
+		<title>Railroad Models</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Recreation" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Recreation/39" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Recreation/39">
+		<title>Television</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Recreation" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Recreation/40" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Recreation/40">
+		<title>Toys</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Recreation" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Recreation/41" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Recreation/41">
+		<title>Travel</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Recreation" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Recreation/42" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Recreation/42">
+		<title>Word Games</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Recreation" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Recreation/43" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Recreation/43">
+		<title>Zoos</title>
+	</LOCdefinition>
+	
+	<!-- subcategories of Environmental Topics-->
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/EnvironmentalTopics" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/1" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/1">
+		<title>Air Pollution</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/EnvironmentalTopics" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/2" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/2">
+		<title>Biological Diversity</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/EnvironmentalTopics" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/3" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/3">
+		<title>Climatic Changes and Global Warming</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/EnvironmentalTopics" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/4" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/4">
+		<title>Coral Reefs</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/EnvironmentalTopics" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/5" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/5">
+		<title>Deserts and Desertification</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/EnvironmentalTopics" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/6" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/6">
+		<title>Disasters</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/EnvironmentalTopics" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/7" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/7">
+		<title>Endangered Species</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/EnvironmentalTopics" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/8" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/8">
+		<title>Energy Conservation</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/EnvironmentalTopics" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/9" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/9">
+		<title>Environmental Education</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/EnvironmentalTopics" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/10" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/10">
+		<title>Environmental Health</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/EnvironmentalTopics" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/11" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/11">
+		<title>Fire</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/EnvironmentalTopics" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/12" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/12">
+		<title>Forest and Deforestation</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/EnvironmentalTopics" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/13" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/13">
+		<title>Fuel Cells</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/EnvironmentalTopics" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/14" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/14">
+		<title>Governmental Policy</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/EnvironmentalTopics" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/15" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/15">
+		<title>Habitat</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/EnvironmentalTopics" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/16" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/16">
+		<title>Hazardous Substances</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/EnvironmentalTopics" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/17" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/17">
+		<title>Hazardous Wastes</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/EnvironmentalTopics" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/18" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/18">
+		<title>Industrial Safety</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/EnvironmentalTopics" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/19" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/19">
+		<title>Light Pollution</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/EnvironmentalTopics" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/20" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/20">
+		<title>Littering</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/EnvironmentalTopics" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/21" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/21">
+		<title>Natural History</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/EnvironmentalTopics" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/22" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/22">
+		<title>Noise Pollution</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/EnvironmentalTopics" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/23" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/23">
+		<title>Nuclear Energy</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/EnvironmentalTopics" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/24" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/24">
+		<title>Pesticides</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/EnvironmentalTopics" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/25" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/25">
+		<title>Pests and Diseases</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/EnvironmentalTopics" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/26" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/26">
+		<title>Petroleum Industry</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/EnvironmentalTopics" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/27" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/27">
+		<title>Ponds</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/EnvironmentalTopics" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/28" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/28">
+		<title>Protection</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/EnvironmentalTopics" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/29" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/29">
+		<title>Radioactive Waste</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/EnvironmentalTopics" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/30" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/30">
+		<title>Rain Forests</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/EnvironmentalTopics" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/31" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/31">
+		<title>Recycling</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/EnvironmentalTopics" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/32" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/32">
+		<title>Renewable Energy</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/EnvironmentalTopics" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/33" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/33">
+		<title>Rural Development</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/EnvironmentalTopics" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/34" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/34">
+		<title>Solar Energy</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/EnvironmentalTopics" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/35" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/35">
+		<title>Toxicology</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/EnvironmentalTopics" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/36" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/36">
+		<title>Water</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/EnvironmentalTopics" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/37" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/37">
+		<title>Weather</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/EnvironmentalTopics" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/38" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/38">
+		<title>Wetlands</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/EnvironmentalTopics" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/39" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/39">
+		<title>Wildlife Conservation</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/EnvironmentalTopics" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/40" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/EnvironmentalTopics/40">
+		<title>Wind Power</title>
+	</LOCdefinition>
+	
+	<!--subcategories of Science-->
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Science" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Science/1" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Science/1">
+		<title>Agriculture</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Science" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Science/2" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Science/2">
+		<title>Animals</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Science" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Science/3" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Science/3">
+		<title>Anthropology</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Science" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Science/4" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Science/4">
+		<title>Archaeology</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Science" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Science/5" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Science/5">
+		<title>Astronomy</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Science" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Science/6" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Science/6">
+		<title>Biology</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Science" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Science/7" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Science/7">
+		<title>Botany</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Science" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Science/8" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Science/8">
+		<title>Chemistry</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Science" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Science/9" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Science/9">
+		<title>Cloning</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Science" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Science/10" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Science/10">
+		<title>Computer Science</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Science" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Science/11" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Science/11">
+		<title>Environment</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Science" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Science/12" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Science/12">
+		<title>Evolution</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Science" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Science/13" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Science/13">
+		<title>Expeditions</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Science" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Science/14" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Science/14">
+		<title>Genetics</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Science" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Science/15" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Science/15">
+		<title>Geography</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Science" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Science/16" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Science/16">
+		<title>Geology</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Science" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Science/17" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Science/17">
+		<title>Human Genome</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Science" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Science/18" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Science/18">
+		<title>Inventions</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Science" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Science/19" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Science/19">
+		<title>Life Sciences</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Science" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Science/20" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Science/20">
+		<title>Mathematics</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Science" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Science/21" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Science/21">
+		<title>Medicine</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Science" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Science/22" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Science/22">
+		<title>Microorganisms</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Science" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Science/23" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Science/23">
+		<title>Molecules</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Science" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Science/24" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Science/24">
+		<title>Nature Sounds</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Science" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Science/25" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Science/25">
+		<title>Nobel Prizes</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Science" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Science/26" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Science/26">
+		<title>Nuclear Energy</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Science" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Science/27" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Science/27">
+		<title>Ontologies</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Science" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Science/28" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Science/28">
+		<title>Physical Sciences</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Science" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Science/29" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Science/29">
+		<title>Physics</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Science" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Science/30" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Science/30">
+		<title>Plants</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Science" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Science/31" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Science/31">
+		<title>Psychology</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Science" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Science/32" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Science/32">
+		<title>Scientists</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Science" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Science/33" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Science/33">
+		<title>Semantic Web</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Science" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Science/34" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Science/34">
+		<title>Standardization</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Science" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Science/35" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Science/35">
+		<title>Taxonomy</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Science" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Science/36" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Science/36">
+		<title>Technology</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Science" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Science/37" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Science/37">
+		<title>Ubiquitous Computing</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Science" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Science/38" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Science/38">
+		<title>User Modeling</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Science" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Science/39" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Science/39">
+		<title>Weather</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/interests/v2/Science" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/interests/v2/Science/40" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/interests/v2/Science/40">
+		<title>Zoology</title>
+	</LOCdefinition>
+</LOCstructure>

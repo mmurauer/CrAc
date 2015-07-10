@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This is a demo collection of some competencies for prototyping purposes
+	v 1.0 -->
+
+<!-- first, the LOC structure and its direct properties -->
+<LOCstructure xmlns="http://purl.org/net/inloc/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://purl.org/net/inloc/ http://purl.org/net/inloc/inloc_schema.xsd"
+	xml:lang="en" id="http://inloc.crac.at/language_competencies/v1">
+	<!-- the last two attributes above put clearly as they are significant -->
+	<title>Languages</title>
+	<abbr>CRAC Language Competencies</abbr>
+	<rights></rights>
+	<created>2015-06-07T00:00:00</created>
+	<version>1.0</version>
+
+	<LOCassociation type="http://purl.org/net/inloc/by">
+		<subject id="http://inloc.crac.at/interests/v1" />
+		<scheme id="http://purl.org/net/inloc/creator">
+			<label xml:lang="en">Author</label>
+		</scheme>
+		<object id="">
+			<label>Florian Jungwirth, Michaela Murauer</label>
+		</object>
+	</LOCassociation>
+
+	<!-- English -->
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/language_competencies/v1" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/competencies/v1/Languages/E" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/Languages/E">
+		<title>English</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/Languages/E" />
+		<scheme id="http://purl.org/net/inloc/hasDefinedLevel" />
+		<object id="http://inloc.crac.at/competencies/v1/Languages/E/1" />
+		<number>1</number>
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/Languages/E/1">
+		<description>Basic Knowledge</description>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/Languages/E" />
+		<scheme id="http://purl.org/net/inloc/hasDefinedLevel" />
+		<object id="http://inloc.crac.at/competencies/v1/Languages/E/2" />
+		<number>2</number>
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/Languages/E/2">
+		<description>Advanced Knowledge</description>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/Languages/E" />
+		<scheme id="http://purl.org/net/inloc/hasDefinedLevel" />
+		<object id="http://inloc.crac.at/competencies/v1/Languages/E/3" />
+		<number>3</number>
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/Languages/E/3">
+		<description>Native Speaker</description>
+	</LOCdefinition>
+	<!-- French -->
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/language_competencies/v1" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/competencies/v1/Languages/F" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/Languages/F">
+		<title>French</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/Languages/F" />
+		<scheme id="http://purl.org/net/inloc/hasDefinedLevel" />
+		<object id="http://inloc.crac.at/competencies/v1/Languages/F/1" />
+		<number>1</number>
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/Languages/F/1">
+		<description>Basic Knowledge</description>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/Languages/F" />
+		<scheme id="http://purl.org/net/inloc/hasDefinedLevel" />
+		<object id="http://inloc.crac.at/competencies/v1/Languages/F/2" />
+		<number>2</number>
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/Languages/F/2">
+		<description>Advanced Knowledge</description>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/Languages/F" />
+		<scheme id="http://purl.org/net/inloc/hasDefinedLevel" />
+		<object id="http://inloc.crac.at/competencies/v1/Languages/F/3" />
+		<number>3</number>
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/Languages/F/3">
+		<description>Native Speaker</description>
+	</LOCdefinition>
+	
+	<!-- German -->
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/language_competencies/v1" />
+		<scheme id="http://purl.org/net/inloc/hasLOCpart" />
+		<object id="http://inloc.crac.at/competencies/v1/Languages/G" />
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/Languages/G">
+		<title>German</title>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/Languages/G" />
+		<scheme id="http://purl.org/net/inloc/hasDefinedLevel" />
+		<object id="http://inloc.crac.at/competencies/v1/Languages/G/1" />
+		<number>1</number>
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/Languages/G/1">
+		<description>Basic Knowledge</description>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/Languages/G" />
+		<scheme id="http://purl.org/net/inloc/hasDefinedLevel" />
+		<object id="http://inloc.crac.at/competencies/v1/Languages/G/2" />
+		<number>2</number>
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/Languages/G/2">
+		<description>Advanced Knowledge</description>
+	</LOCdefinition>
+	
+	<LOCassociation type="http://purl.org/net/inloc/LOCrel">
+		<subject id="http://inloc.crac.at/competencies/v1/Languages/G" />
+		<scheme id="http://purl.org/net/inloc/hasDefinedLevel" />
+		<object id="http://inloc.crac.at/competencies/v1/Languages/G/3" />
+		<number>3</number>
+	</LOCassociation>
+	<LOCdefinition id="http://inloc.crac.at/competencies/v1/Languages/G/3">
+		<description>Native Speaker</description>
+	</LOCdefinition>
+</LOCstructure>

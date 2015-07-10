@@ -1,0 +1,91 @@
+<project name="common-targets" basedir=".">
+
+    <dirname property="imported.basedir" file="${ant.file.common-targets}" />
+
+    <property name="build.home" value="${basedir}/bin" />
+    <property name="src.home" value="${basedir}/src" />
+    <property name="db.home" value="${basedir}/hsqldb" />
+    <property name="build.db.home" value="${build.home}/db" />
+    <property name="build.ddl.home" value="${build.home}/ddl" />
+
+    <property name="hibernate.libs" value="${imported.basedir}" />
+
+    <path id="hibernate.classpath">
+        <fileset dir="${hibernate.libs}">
+            <include name="*.jar" />
+        </fileset>
+    </path>
+
+    <!--  Target: clean                                          -->
+    <!--  Loeschen des gesamten Build-Directory                  -->
+    <target name="clean" description="Loescht Build-Dir">
+        <delete dir="${build.home}" />
+    </target>
+
+    <target name="compile" description="Compiliert Java-Quellen">
+        <mkdir dir="${build.home}" />
+        <javac srcdir="${src.home}" destdir="${build.home}">
+            <classpath refid="hibernate.classpath" />
+        </javac>
+        <copy todir="${build.home}">
+            <fileset dir="${src.home}">
+                <include name="**/*.xml" />
+            </fileset>
+        </copy>
+    </target>
+
+    <taskdef name="hibernatetool" classname="org.hibernate.tool.ant.HibernateToolTask" classpathref="hibernate.classpath" />
+
+    <target name="db-generate" depends="compile" description="Generiert Db-Schema">
+        <mkdir dir="${build.ddl.home}" />
+        <hibernatetool destdir="${build.ddl.home}">
+            <classpath>
+                <dirset dir="${build.home}" />
+            </classpath>
+            <jpaconfiguration />
+            <hbm2ddl outputfilename="schema.sql" drop="true" format="true" />
+        </hibernatetool>
+    </target>
+
+    <patternset id="db-pattern">
+        <include name="datenbank.script" />
+        <include name="datenbank.log" />
+        <include name="sqltool.rc" />
+    </patternset>
+
+    <target name="db-init" description="HSQLDB kopieren">
+        <delete failonerror="false">
+            <fileset dir="${build.db.home}">
+            </fileset>
+        </delete>
+
+        <copy todir="${build.db.home}">
+            <fileset dir="${db.home}">
+                <patternset refid="db-pattern" />
+            </fileset>
+        </copy>
+    </target>
+
+	<target name="db-gui" description="Frontend HSQLDB">
+        <java classname="org.hsqldb.util.DatabaseManagerSwing" fork="yes">
+            <classpath refid="hibernate.classpath" />
+            <arg line="-url jdbc:hsqldb:hsql://localhost/datenbank -driver org.hsqldb.jdbcDriver"/>
+        </java>    	
+    </target>	
+
+    <target name="db-start" description="HSQLDB starten" depends="db-init">
+        <java classname="org.hsqldb.Server" fork="yes">
+            <classpath refid="hibernate.classpath" />
+            <arg line="-database.0 ${build.db.home}/datenbank -silent false -dbname.0 datenbank" />
+        </java>
+    </target>
+
+    <target name="db-stop" description="HSQLDB runterfahren">
+        <java classpathref="hibernate.classpath" classname="org.hsqldb.util.SqlTool" fork="true">
+            <arg line="--noinput --sql 'shutdown;' --rcfile ${build.db.home}/sqltool.rc localhost-sa" />
+        </java>
+    </target>
+
+
+
+</project>
